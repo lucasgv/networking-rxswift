@@ -140,6 +140,15 @@
 			path = Endpoints;
 			sourceTree = "<group>";
 		};
+		5934081A1F9159A30085D718 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				599522E51F8E96D700528A9D /* Main.storyboard */,
+				599522EA1F8E96D800528A9D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
 		599522D51F8E96D700528A9D = {
 			isa = PBXGroup;
 			children = (
@@ -165,12 +174,11 @@
 		599522E01F8E96D700528A9D /* RxMoyaExample */ = {
 			isa = PBXGroup;
 			children = (
+				5934081A1F9159A30085D718 /* Storyboards */,
 				593408161F8EC6280085D718 /* Networking */,
 				593408151F8EC61E0085D718 /* View Controllers */,
 				599522E11F8E96D700528A9D /* AppDelegate.swift */,
-				599522E51F8E96D700528A9D /* Main.storyboard */,
 				599522E81F8E96D700528A9D /* Assets.xcassets */,
-				599522EA1F8E96D800528A9D /* LaunchScreen.storyboard */,
 				599522ED1F8E96D800528A9D /* Info.plist */,
 			);
 			path = RxMoyaExample;
